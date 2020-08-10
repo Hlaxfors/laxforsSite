@@ -6,14 +6,13 @@
     </head>
     <body>
         <h1 class="title">Laxfors.com</h1>
-        <img id="image" src="./resources/döSkalle.png" alt="Döskalle">
         <div class="grid-container">
-            <div class="grid-item" style="background-color: red;" type="button" onclick="document.getElementById('image').style.background = 'red'"></div>
-            <div class="grid-item" style="background-color: yellow;" type="button" onclick="document.getElementById('image').style.background = 'yellow'"></div>
-            <div class="grid-item" style="background-color: green;" type="button" onclick="document.getElementById('image').style.background = 'green'"></div>
-            <div class="grid-item" style="background-color: blue;" type="button" onclick="document.getElementById('image').style.background = 'blue'"></div>
-            <div class="grid-item" style="background-color: indigo;" type="button" onclick="document.getElementById('image').style.background = 'indigo'"></div>
-            <div class="grid-item" style="background-color: white;" type="button" onclick="document.getElementById('image').style.background = 'white'"></div>
+            <img class="grid-item" id="image" src="./resources/döSkalle.png" alt="Döskalle">
+            <div class="grid-item eye-container">
+                <div class="eye" id="left-eye"></div>
+                <div class="eye" id="right-eye"></div>
+            </div>    
         </div>
+    <script src="main.js"></script>
     </body>
 </html>
