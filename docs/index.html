@@ -1,11 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Laxfors.com</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        Hello World!
+        <h1 class="title">Laxfors.com</h1>
+        <img id="image" src="./resources/döSkalle.png" alt="Döskalle">
+        <div class="grid-container">
+            <div class="grid-item" style="background-color: red;" type="button" onclick="document.getElementById('image').style.background = 'red'"></div>
+            <div class="grid-item" style="background-color: yellow;" type="button" onclick="document.getElementById('image').style.background = 'yellow'"></div>
+            <div class="grid-item" style="background-color: green;" type="button" onclick="document.getElementById('image').style.background = 'green'"></div>
+            <div class="grid-item" style="background-color: blue;" type="button" onclick="document.getElementById('image').style.background = 'blue'"></div>
+            <div class="grid-item" style="background-color: indigo;" type="button" onclick="document.getElementById('image').style.background = 'indigo'"></div>
+            <div class="grid-item" style="background-color: white;" type="button" onclick="document.getElementById('image').style.background = 'white'"></div>
+        </div>
     </body>
 </html>

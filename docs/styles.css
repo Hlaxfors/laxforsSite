@@ -1,0 +1,30 @@
+html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    text-align: center;
+}
+
+.title {
+    color: white;
+    font-family: 'Lucida Console';
+}
+
+#image {
+    background: white;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    padding: 10px;
+}
+
+.grid-item {
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    margin: auto;
+}
